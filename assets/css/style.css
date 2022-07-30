@@ -7,6 +7,12 @@
     padding: 0;
     font-family: "Fira Sans", sans-serif;
     text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* Element Selectors */
+main {
+    margin: 50px;
 }
 
 /* Start Header Section */
@@ -20,10 +26,14 @@ header {
 
 .header {
     background-color: white;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: space-between;
-    height: 65px;
-    padding: 20px 40px 0 40px;
+    padding: 25px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .header h1 {
@@ -56,6 +66,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 .banner-heading {
@@ -68,6 +79,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 70px;
 }
 
 .banner-heading h1 {
@@ -118,3 +130,29 @@ header {
     color: white;
 }
 /* End Header Section */
+
+/* Start About Section */
+section h2 {
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #42A362;
+    border-bottom: 2px solid #42A362;
+    margin: 20px 0;
+}
+
+.line {
+    color: #42A362;
+}
+/* End About Section */
+
+/* Start Contact Section */
+
+/* End Contact Section */
+
+/* Start Footer Section */
+footer p {
+    text-align: center;
+    background-color: #42A362;
+    padding: 20px;
+}
+/* End Footer Section */
