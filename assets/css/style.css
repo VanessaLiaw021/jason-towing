@@ -1,0 +1,120 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap');
+
+/* Root Selectors */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Fira Sans", sans-serif;
+    text-decoration: none;
+}
+
+/* Start Header Section */
+header {
+    background-image: url("../images/Queen-City.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+    padding: 20px 40px 0 40px;
+}
+
+.header h1 {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar ul li {
+    padding: 10px;
+    color: black;
+    font-size: 18px;
+    margin: 0 20px;
+}
+
+.navbar ul li:hover {
+    color: white;
+    background-color: #42A362;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Banner Section */
+.banner-wrapper {
+    padding: 110px 80px 0 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-heading {
+    text-align: center;
+    background-color: white;
+    padding: 15px 0;
+    border-radius: 10px;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-heading h1 {
+    font-size: 100px;
+    color: black;
+}
+
+.banner-heading h1 span {
+    color: #42A362;
+}
+
+.banner-heading #info {
+    font-size: 50px;
+    padding: 10px 0;
+}
+
+.banner-heading #info span {
+    color: #42A362;
+    text-transform: uppercase;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.number p {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #42A362;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: cubic-bezier(1, 0, 0, 1);
+    -webkit-transition: all 0.6s ease;
+}
+
+.number h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.number p:hover {
+    background-color: #42A362;
+    color: white;
+}
+/* End Header Section */
